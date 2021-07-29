@@ -1,0 +1,54 @@
+:root {
+  --blue-main: #08A6E4;
+  --blue-main2: #07ACE6;
+  --grey1: #00000029;
+  --grey2: #a5a5a5;
+  --black: #000000;
+  --white: #FFFFFF;
+  --whitegrey: #F7F7F7;
+  --cream: #E8E9ED;
+  --red: #FB3B64;
+  --mint: #55DFB4;
+  --greyx: #95989A;
+  --inputborder: var(--greyx);
+  --accent1: var(--red);
+  --accent2: var(--blue-main);
+  --accent3: var(--mint);
+  --main-font: "Raleway", sans-serif;
+  --secondary-font: "Open Sans", sans-serif;
+}
+
+footer {
+  width: 100%;
+  box-shadow: 0 -5px 40px #00000029;
+  padding: 20px 0;
+}
+footer .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container a.logo {
+  font-family: var(--main-font);
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--blue-main);
+}
+footer .container a.logo .copy {
+  font-size: 0.6875rem;
+  line-height: 1.5rem;
+  color: var(--grey2);
+  margin-top: 6px;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+}
+footer .container .social a:first-of-type {
+  margin-right: 25px;
+}
+/*# sourceMappingURL=main.css.map */
